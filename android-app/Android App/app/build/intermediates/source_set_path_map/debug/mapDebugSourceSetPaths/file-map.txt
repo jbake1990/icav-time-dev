@@ -1,0 +1,66 @@
+com.example.icavtimetracker.app-lifecycle-livedata-core-ktx-2.7.0-0 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/019454acc66f76bdd84be5f5f5253e9c/transformed/lifecycle-livedata-core-ktx-2.7.0/res
+com.example.icavtimetracker.app-ui-util-release-1 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/02d292bf7e75ba7bda88b70dd2b7a9c1/transformed/ui-util-release/res
+com.example.icavtimetracker.app-navigation-runtime-2.7.6-2 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/09e321dfc46e05a841be022bd1a39e4a/transformed/navigation-runtime-2.7.6/res
+com.example.icavtimetracker.app-material3-release-3 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/0a577e777d63c975a9b5d1b5784bc745/transformed/material3-release/res
+com.example.icavtimetracker.app-lifecycle-runtime-ktx-2.7.0-4 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/0e292bebdcee262621b86b5c2c64f945/transformed/lifecycle-runtime-ktx-2.7.0/res
+com.example.icavtimetracker.app-appcompat-resources-1.6.1-5 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/10d276401270195816ca38572dbb2184/transformed/appcompat-resources-1.6.1/res
+com.example.icavtimetracker.app-activity-ktx-1.8.2-6 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/1c8a078fef315cb17465d1ce5ac17f6e/transformed/activity-ktx-1.8.2/res
+com.example.icavtimetracker.app-fragment-1.3.6-7 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/1cdec05c1f8db2a83fd67dcd177d4de9/transformed/fragment-1.3.6/res
+com.example.icavtimetracker.app-core-runtime-2.2.0-8 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/1da35c92c2139a8ee98b0a0be1c865d2/transformed/core-runtime-2.2.0/res
+com.example.icavtimetracker.app-navigation-runtime-ktx-2.7.6-9 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/20f2cd02bf1b03e8c964b2298084c40c/transformed/navigation-runtime-ktx-2.7.6/res
+com.example.icavtimetracker.app-recyclerview-1.1.0-10 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/234217c7a46440d094d6b4285f1a5479/transformed/recyclerview-1.1.0/res
+com.example.icavtimetracker.app-navigation-common-2.7.6-11 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/26cfe597a6c3f3aad4916966f27dbe82/transformed/navigation-common-2.7.6/res
+com.example.icavtimetracker.app-ui-graphics-release-12 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/2fa8493472af5d3e87535eb0b7970f30/transformed/ui-graphics-release/res
+com.example.icavtimetracker.app-ui-tooling-data-release-13 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/31b62eb52359f7b85b07ac8cf21ce584/transformed/ui-tooling-data-release/res
+com.example.icavtimetracker.app-customview-poolingcontainer-1.0.0-14 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/32f206afa3d542671c33be309c12645f/transformed/customview-poolingcontainer-1.0.0/res
+com.example.icavtimetracker.app-drawerlayout-1.1.1-15 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/368ee5a0d3255169c72fc39d5616cdee/transformed/drawerlayout-1.1.1/res
+com.example.icavtimetracker.app-ui-tooling-release-16 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/3cbfb0d07c26a9a1093a2a3d08e6fcfc/transformed/ui-tooling-release/res
+com.example.icavtimetracker.app-transition-1.2.0-17 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/4831ca5c13855089935a25c937b2edf6/transformed/transition-1.2.0/res
+com.example.icavtimetracker.app-activity-compose-1.8.2-18 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/4880f339ab8fd3e69ef975b0350b65be/transformed/activity-compose-1.8.2/res
+com.example.icavtimetracker.app-ui-text-release-19 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/4aa3f14edc0d118c70ac58eff3431164/transformed/ui-text-release/res
+com.example.icavtimetracker.app-runtime-saveable-release-20 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/4b86e077a0f8dd7371cd1df98353050d/transformed/runtime-saveable-release/res
+com.example.icavtimetracker.app-runtime-release-21 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/4e49b772b77618751b7f2ff012888b87/transformed/runtime-release/res
+com.example.icavtimetracker.app-cardview-1.0.0-22 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/5334c4ad6177f77d1418fc9c97b0ab49/transformed/cardview-1.0.0/res
+com.example.icavtimetracker.app-lifecycle-runtime-compose-2.7.0-23 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/5bd70db3080a4bdd1f890ea3a82346a4/transformed/lifecycle-runtime-compose-2.7.0/res
+com.example.icavtimetracker.app-emoji2-views-helper-1.3.0-24 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/5d230babfe47cb831c78ba5ab556dd86/transformed/emoji2-views-helper-1.3.0/res
+com.example.icavtimetracker.app-savedstate-1.2.1-25 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/5fb6a2ac03ad4e9f406788edb92636f2/transformed/savedstate-1.2.1/res
+com.example.icavtimetracker.app-foundation-layout-release-26 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/60c47285dbf60f629837e78ac1234296/transformed/foundation-layout-release/res
+com.example.icavtimetracker.app-savedstate-ktx-1.2.1-27 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/60d001399328c3797d8f4a36729b64c2/transformed/savedstate-ktx-1.2.1/res
+com.example.icavtimetracker.app-foundation-release-28 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/6c484a0adfcadd4b2a61b99853e2253a/transformed/foundation-release/res
+com.example.icavtimetracker.app-material-1.10.0-29 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/71a9c190e8aba565353e61aab5a6148d/transformed/material-1.10.0/res
+com.example.icavtimetracker.app-ui-unit-release-30 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/772fd8bcbd5450a17d38c7ec86b57d4d/transformed/ui-unit-release/res
+com.example.icavtimetracker.app-material-ripple-release-31 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/78e077d698249587fb717e91d27494ba/transformed/material-ripple-release/res
+com.example.icavtimetracker.app-animation-core-release-32 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/7dcc76003b3638be255b0b85280af97c/transformed/animation-core-release/res
+com.example.icavtimetracker.app-core-1.12.0-33 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/952e7769f714f0e05876772d5ca1b6ab/transformed/core-1.12.0/res
+com.example.icavtimetracker.app-lifecycle-livedata-2.7.0-34 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/993ea77a64b50b0703fda250ec7c18e7/transformed/lifecycle-livedata-2.7.0/res
+com.example.icavtimetracker.app-lifecycle-viewmodel-ktx-2.7.0-35 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/a2130be63347670b1a5b82c3ecc3f070/transformed/lifecycle-viewmodel-ktx-2.7.0/res
+com.example.icavtimetracker.app-appcompat-1.6.1-36 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/a48f49e920769c1c2f6a250c33513001/transformed/appcompat-1.6.1/res
+com.example.icavtimetracker.app-core-ktx-1.12.0-37 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/a91f07e98eb4e264909766445ae29f2c/transformed/core-ktx-1.12.0/res
+com.example.icavtimetracker.app-lifecycle-livedata-core-2.7.0-38 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/af81d5827d5ee669f0c4490a6011d6c1/transformed/lifecycle-livedata-core-2.7.0/res
+com.example.icavtimetracker.app-navigation-common-ktx-2.7.6-39 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/b03ba0e13021eb4ba03d6807ef0ad1c5/transformed/navigation-common-ktx-2.7.6/res
+com.example.icavtimetracker.app-viewpager2-1.0.0-40 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/b2f21286993ff202767a437fc5a863e3/transformed/viewpager2-1.0.0/res
+com.example.icavtimetracker.app-ui-release-41 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/b30f5e0f0840be39b993901e527e7a35/transformed/ui-release/res
+com.example.icavtimetracker.app-lifecycle-viewmodel-compose-2.7.0-42 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/b473ebb1d15c287ca459e186a54def3a/transformed/lifecycle-viewmodel-compose-2.7.0/res
+com.example.icavtimetracker.app-animation-release-43 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/b4c13e19ad322d11cce577296fe990be/transformed/animation-release/res
+com.example.icavtimetracker.app-material-release-44 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/baab8d53c6ea6577f34dbee66eecd3af/transformed/material-release/res
+com.example.icavtimetracker.app-lifecycle-process-2.7.0-45 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/bb6a98f240fb567219e167dff3d01642/transformed/lifecycle-process-2.7.0/res
+com.example.icavtimetracker.app-lifecycle-viewmodel-2.7.0-46 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/c1d7cb401c22e32ec565cafe6ff8173e/transformed/lifecycle-viewmodel-2.7.0/res
+com.example.icavtimetracker.app-constraintlayout-2.0.1-47 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/ca716cb018b16d6e60b5829f4e0ab975/transformed/constraintlayout-2.0.1/res
+com.example.icavtimetracker.app-startup-runtime-1.1.1-48 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/ceea3d971e09e2bc97c1d9bc4037bce6/transformed/startup-runtime-1.1.1/res
+com.example.icavtimetracker.app-annotation-experimental-1.4.0-49 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/d2a0152c683cac3cefa454d678e3fde3/transformed/annotation-experimental-1.4.0/res
+com.example.icavtimetracker.app-lifecycle-viewmodel-savedstate-2.7.0-50 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/d454b231938b8369ae234d4e3e8a0276/transformed/lifecycle-viewmodel-savedstate-2.7.0/res
+com.example.icavtimetracker.app-emoji2-1.3.0-51 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/e235707a97b2027a069d4d37e9b4f6dd/transformed/emoji2-1.3.0/res
+com.example.icavtimetracker.app-activity-1.8.2-52 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/ecc402722cdbd7f4008c1acec48fba19/transformed/activity-1.8.2/res
+com.example.icavtimetracker.app-ui-geometry-release-53 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/ecec19e8f195b4d459c8cf9aea698558/transformed/ui-geometry-release/res
+com.example.icavtimetracker.app-profileinstaller-1.3.0-54 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/ee3d6e1903ee1e96176fd8e39ffdbfa0/transformed/profileinstaller-1.3.0/res
+com.example.icavtimetracker.app-coordinatorlayout-1.1.0-55 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/f15c0ba065b23b41343e8079d0cc9d54/transformed/coordinatorlayout-1.1.0/res
+com.example.icavtimetracker.app-ui-tooling-preview-release-56 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/f5623e4c153b3c10421bdae07400dfab/transformed/ui-tooling-preview-release/res
+com.example.icavtimetracker.app-material-icons-core-release-57 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/f83e88ebd084c4821eae9da2b24d6b38/transformed/material-icons-core-release/res
+com.example.icavtimetracker.app-navigation-compose-2.7.6-58 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/fbbd202e392fdae19f0dceee4b296df7/transformed/navigation-compose-2.7.6/res
+com.example.icavtimetracker.app-lifecycle-runtime-2.7.0-59 /Users/jasonbaker/.gradle/caches/8.11.1/transforms/fcb252916f50886a3add189262417679/transformed/lifecycle-runtime-2.7.0/res
+com.example.icavtimetracker.app-resValues-60 /Users/jasonbaker/Documents/ICAV Time Tracker/Android App/app/build/generated/res/resValues/debug
+com.example.icavtimetracker.app-packageDebugResources-61 /Users/jasonbaker/Documents/ICAV Time Tracker/Android App/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.example.icavtimetracker.app-packageDebugResources-62 /Users/jasonbaker/Documents/ICAV Time Tracker/Android App/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.example.icavtimetracker.app-debug-63 /Users/jasonbaker/Documents/ICAV Time Tracker/Android App/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.example.icavtimetracker.app-debug-64 /Users/jasonbaker/Documents/ICAV Time Tracker/Android App/app/src/debug/res
+com.example.icavtimetracker.app-main-65 /Users/jasonbaker/Documents/ICAV Time Tracker/Android App/app/src/main/res

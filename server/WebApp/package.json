@@ -1,16 +1,16 @@
 {
   "name": "icav-time-tracker-web",
-  "version": "1.0.0",
-  "description": "Web interface for ICAV Time Tracker - Office Worker Dashboard",
+  "version": "2.0.0",
+  "description": "Web interface and API for ICAV Time Tracker v2",
   "private": true,
   "engines": {
     "node": ">=18.0.0",
     "npm": ">=8.0.0"
   },
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.4",
-    "@testing-library/react": "^13.3.0",
-    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.5.1",
     "@types/node": "^18.0.0",
     "@types/react": "^18.2.0",
     "@types/react-dom": "^18.2.0",
