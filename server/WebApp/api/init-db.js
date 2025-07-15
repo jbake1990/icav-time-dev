@@ -11,7 +11,7 @@ module.exports = async function handler(req, res) {
     console.log('🚀 Initializing ICAV Time Tracker database on Neon...');
     
     // Read the schema file
-    const schemaPath = path.join(process.cwd(), '../Database/schema_v2.sql');
+    const schemaPath = path.join(process.cwd(), '../../Database/schema_v2.sql');
     const schema = fs.readFileSync(schemaPath, 'utf8');
     
     // Split the schema into individual statements
