@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "buildCommand": "cd server/WebApp && npm install && npm run build",
+  "outputDirectory": "server/WebApp/build",
+  "installCommand": "cd server/WebApp && npm install",
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/server/WebApp/api/$1"
+    },
+    {
+      "src": "/static/(.*)",
+      "dest": "/server/WebApp/static/$1"
+    },
+    {
+      "src": "/favicon.ico",
+      "dest": "/server/WebApp/favicon.ico"
+    },
+    {
+      "src": "/manifest.json",
+      "dest": "/server/WebApp/manifest.json"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/server/WebApp/index.html"
+    }
+  ]
+} 
