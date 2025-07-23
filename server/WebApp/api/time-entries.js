@@ -51,6 +51,41 @@ module.exports = async function handler(req, res) {
     });
   }
   
+  // Add a test endpoint for DELETE debugging
+  if (req.method === 'DELETE' && req.query.test === 'true') {
+    console.log('DELETE test endpoint called');
+    console.log('Request URL:', req.url);
+    console.log('Request headers:', req.headers);
+    console.log('Request query:', req.query);
+    return res.status(200).json({
+      message: 'DELETE test endpoint working',
+      url: req.url,
+      query: req.query,
+      timestamp: new Date().toISOString()
+    });
+  }
+  
+  // Add a test endpoint for DELETE with ID debugging
+  if (req.method === 'DELETE' && req.query.debug === 'true') {
+    console.log('DELETE debug endpoint called');
+    console.log('Request URL:', req.url);
+    console.log('Request headers:', req.headers);
+    console.log('Request query:', req.query);
+    
+    // Try to extract ID from URL
+    const urlParts = req.url.split('/');
+    const extractedId = urlParts[urlParts.length - 1];
+    
+    return res.status(200).json({
+      message: 'DELETE debug endpoint working',
+      url: req.url,
+      query: req.query,
+      extractedId: extractedId,
+      urlParts: urlParts,
+      timestamp: new Date().toISOString()
+    });
+  }
+  
   if (req.method === 'GET') {
     try {
       console.log('Attempting to fetch time entries from database...');
@@ -405,9 +440,15 @@ module.exports = async function handler(req, res) {
     }
   } else if (req.method === 'DELETE') {
     try {
+      console.log('=== DELETE REQUEST DEBUG ===');
       console.log('Attempting to delete time entry');
       console.log('Request headers:', req.headers);
       console.log('Request URL:', req.url);
+      console.log('Request method:', req.method);
+      console.log('Request query:', req.query);
+      console.log('Request params:', req.params);
+      console.log('Request body:', req.body);
+      console.log('=== END DELETE DEBUG ===');
       
       // Verify user session and get user ID and role
       const userSession = await verifyUserSession(req.headers.authorization);
@@ -422,8 +463,39 @@ module.exports = async function handler(req, res) {
       });
       
       // Extract the entry ID from the URL path
+      // Handle both /api/time-entries/123 and /api/time-entries/123/ formats
+      let entryId = null;
+      
+      // Method 1: Try to extract from URL path
       const urlParts = req.url.split('/');
-      const entryId = urlParts[urlParts.length - 1];
+      if (urlParts.length > 0) {
+        entryId = urlParts[urlParts.length - 1];
+        // Remove any trailing slash or query parameters
+        if (entryId && entryId.includes('?')) {
+          entryId = entryId.split('?')[0];
+        }
+        // Also remove any trailing slash
+        if (entryId && entryId.endsWith('/')) {
+          entryId = entryId.slice(0, -1);
+        }
+      }
+      
+      // Method 2: If still no ID, try to extract from query parameters
+      if (!entryId) {
+        const url = new URL(req.url, `http://${req.headers.host}`);
+        entryId = url.searchParams.get('id');
+      }
+      
+      // Method 3: Try to extract from Vercel's dynamic route parameters
+      if (!entryId && req.query && req.query.id) {
+        entryId = req.query.id;
+      }
+      
+      console.log('URL parsing - req.url:', req.url);
+      console.log('URL parsing - urlParts:', urlParts);
+      console.log('URL parsing - extracted entryId:', entryId);
+      console.log('URL parsing - req.query:', req.query);
+      console.log('URL parsing - entryId after cleanup:', entryId);
       
       if (!entryId) {
         console.error('No entry ID provided in URL');
@@ -432,6 +504,33 @@ module.exports = async function handler(req, res) {
           details: 'No entry ID provided in URL',
           timestamp: new Date().toISOString()
         });
+      }
+      
+      // Validate UUID format
+      const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
+      console.log('UUID validation - entryId:', entryId);
+      console.log('UUID validation - entryId type:', typeof entryId);
+      console.log('UUID validation - entryId length:', entryId.length);
+      console.log('UUID validation - regex test result:', uuidRegex.test(entryId));
+      
+      if (!uuidRegex.test(entryId)) {
+        console.error('Invalid UUID format:', entryId);
+        console.error('UUID validation failed for entryId:', entryId);
+        console.error('UUID regex test result:', uuidRegex.test(entryId));
+        return res.status(400).json({
+          error: 'Invalid entry ID format',
+          details: 'Entry ID must be a valid UUID',
+          receivedId: entryId,
+          timestamp: new Date().toISOString()
+        });
+      }
+      
+      console.log('UUID validation passed for entryId:', entryId);
+      
+      // Final cleanup - ensure no query parameters or extra characters
+      if (entryId && entryId.includes('?')) {
+        entryId = entryId.split('?')[0];
+        console.log('URL parsing - entryId after final cleanup:', entryId);
       }
       
       console.log('Attempting to delete entry with ID:', entryId);
@@ -466,6 +565,9 @@ module.exports = async function handler(req, res) {
       }
       
       // Delete the entry
+      console.log('Executing DELETE query for entryId:', entryId);
+      console.log('DELETE query: DELETE FROM time_entries WHERE id = ${entryId}');
+      
       const { rowCount } = await sql`
         DELETE FROM time_entries WHERE id = ${entryId}
       `;
@@ -488,10 +590,14 @@ module.exports = async function handler(req, res) {
         });
       }
     } catch (error) {
+      console.error('=== DELETE ERROR DEBUG ===');
       console.error('Error deleting time entry:');
       console.error('Error message:', error.message);
       console.error('Error stack:', error.stack);
       console.error('Error details:', error);
+      console.error('Error type:', typeof error);
+      console.error('Error constructor:', error.constructor.name);
+      console.error('=== END DELETE ERROR DEBUG ===');
       
       if (error.message.includes('No valid authorization header') || error.message.includes('Invalid or expired session')) {
         res.status(401).json({ 
